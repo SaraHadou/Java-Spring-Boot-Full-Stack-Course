@@ -1,6 +1,6 @@
 package com.shadou.learnspringframework.game;
 
-public class MarioGame implements GameConsole {
+public class MarioGame implements GamingConsole {
     public void up() {
         System.out.println("Jump");
     }

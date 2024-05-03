@@ -1,6 +1,6 @@
 package com.shadou.learnspringframework.game;
 
-public class PacmanGame implements GameConsole{
+public class PacmanGame implements GamingConsole {
     public void up() {
         System.out.println("Up");
     }

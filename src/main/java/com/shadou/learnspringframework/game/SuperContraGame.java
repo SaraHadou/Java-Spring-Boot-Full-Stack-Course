@@ -1,6 +1,9 @@
 package com.shadou.learnspringframework.game;
 
-public class SuperContraGame implements GameConsole {
+import org.springframework.stereotype.Component;
+
+@Component
+public class SuperContraGame implements GamingConsole {
     public void up() {
         System.out.println("Up");
     }
