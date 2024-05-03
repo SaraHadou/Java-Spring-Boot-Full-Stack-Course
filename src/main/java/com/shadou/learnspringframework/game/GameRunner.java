@@ -1,9 +1,13 @@
 package com.shadou.learnspringframework.game;
 
-public class GameRunner {
-    GameConsole game;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
-    public GameRunner(GameConsole game) {
+@Component
+public class GameRunner {
+    GamingConsole game;
+
+    public GameRunner(@Qualifier("pacmanGame") GamingConsole game) {
         this.game = game;
     }
 
@@ -13,7 +17,6 @@ public class GameRunner {
          game.down();
          game.left();
          game.right();
-
     }
 
 }

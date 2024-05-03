@@ -1,6 +1,6 @@
 package com.shadou.learnspringframework.game;
 
-public interface GameConsole {
+public interface GamingConsole {
     void up();
     void down();
     void left();

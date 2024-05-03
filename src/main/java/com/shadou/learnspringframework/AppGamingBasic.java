@@ -15,6 +15,4 @@ public class AppGamingBasic {
         gameRunner.run();
     }
 
-    public static class AppGamingSpringBeans {
-    }
 }
