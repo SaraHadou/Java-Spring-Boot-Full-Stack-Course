@@ -1,11 +1,6 @@
 package com.shadou.learnspringframework.game;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-
-@Component
-@Qualifier("pacmanGame")
-public class PacmanGame implements GamingConsole {
+public class PacmanGame implements GameConsole{
     public void up() {
         System.out.println("Up");
     }
