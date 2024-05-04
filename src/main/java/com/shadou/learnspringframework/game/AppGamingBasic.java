@@ -1,4 +1,4 @@
-package com.shadou.learnspringframework;
+package com.shadou.learnspringframework.game;
 
 import com.shadou.learnspringframework.game.GameRunner;
 import com.shadou.learnspringframework.game.MarioGame;

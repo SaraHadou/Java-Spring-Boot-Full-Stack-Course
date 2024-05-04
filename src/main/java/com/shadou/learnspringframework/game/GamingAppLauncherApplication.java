@@ -1,7 +1,5 @@
-package com.shadou.learnspringframework;
+package com.shadou.learnspringframework.game;
 
-import com.shadou.learnspringframework.game.GamingConsole;
-import com.shadou.learnspringframework.game.GameRunner;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

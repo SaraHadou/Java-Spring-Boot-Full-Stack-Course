@@ -5,9 +5,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class GameRunner {
+
     GamingConsole game;
 
-    public GameRunner(@Qualifier("pacmanGame") GamingConsole game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
