@@ -8,7 +8,7 @@ import java.util.Arrays;
 @Component
 public class BusinessCalculationService {
 
-    DataService dataService;
+    private DataService dataService;
 
     public BusinessCalculationService(@Qualifier("mongoDbDataService") DataService dataService) {
         this.dataService = dataService;
