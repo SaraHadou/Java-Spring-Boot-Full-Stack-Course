@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/learn-spring-framework.iml" filepath="$PROJECT_DIR$/learn-spring-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-spring-boot/untitled/untitled.iml" filepath="$PROJECT_DIR$/02-spring-boot/untitled/untitled.iml" />
     </modules>
   </component>
