@@ -13,7 +13,14 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        repository.insertCourse(new Course(2, "Learn Azure", "Udemy"));
+        repository.insert(new Course(1, "Learn AWS", "Udemy"));
+        repository.insert(new Course(2, "Learn Azure", "Udemy"));
+        repository.insert(new Course(3, "Learn Spring Boot", "Udemy"));
+
+        repository.deleteById(1);
+
+        System.out.println(repository.findById(2));
+        System.out.println(repository.findById(3));
     }
 
 }

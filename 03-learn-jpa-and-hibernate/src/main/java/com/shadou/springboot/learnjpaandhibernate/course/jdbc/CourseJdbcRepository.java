@@ -2,9 +2,9 @@ package com.shadou.springboot.learnjpaandhibernate.course.jdbc;
 
 import com.shadou.springboot.learnjpaandhibernate.course.Course;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 @Repository
 public class CourseJdbcRepository {
@@ -18,11 +18,32 @@ public class CourseJdbcRepository {
                 VALUES (?, ?, ?);
            """;
 
-    @Transactional
-    public void insertCourse(Course course) {
+    private static String DELETE_QUERY =
+            """ 
+                 DELETE FROM course 
+                 WHERE id = ?;
+            """;
+
+    private static String SELECT_QUERY =
+            """ 
+                 SELECT *
+                 FROM course
+                 WHERE id = ?;
+            """;
+
+
+    public void insert(Course course) {
         springJdbcTemplate.update(INSERT_QUERY,
                 course.getId(), course.getName(), course.getAuthor());
     }
 
+    public void deleteById(long id) {
+        springJdbcTemplate.update(DELETE_QUERY, id);
+    }
+
+    public Course findById(long id) {
+        return springJdbcTemplate.queryForObject(SELECT_QUERY,
+                new BeanPropertyRowMapper<>(Course.class), id);
+    }
 
 }
