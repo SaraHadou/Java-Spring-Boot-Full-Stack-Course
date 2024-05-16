@@ -3,8 +3,7 @@
         <title>Login Page</title>
     </head>
     <body>
-        <div>Welcome to the course!</div>
-        <div>Your name is ${ name }</div>
-        <div>Your password is ${ password }</div>
+        <div>Welcome to our course!</div>
+        <div>${ name }</div>
     </body>
 </html>
