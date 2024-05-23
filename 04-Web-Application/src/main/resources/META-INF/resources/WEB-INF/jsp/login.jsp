@@ -1,14 +1,12 @@
-<html>
-    <head>
-        <title>Login Page</title>
-    </head>
-    <body>
-        Welcome to login page!
-        <pre>${ errorMessage }</pre>
-        <form method="post">
-            Name: <input type="text" name="name" >
-            Password: <input  type="password" name="password" >
-            <input type="submit" >
-        </form>
-    </body>
-</html>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
+
+<pre>${ errorMessage }</pre>
+<form method="post">
+    Name: <input type="text" name="name" >
+    Password: <input  type="password" name="password" >
+    <input type="submit" >
+</form>
+
+<%@ include file="common/footer.jspf" %>
+
