@@ -1,11 +1,21 @@
 package com.shadou.springboot.myWebApp.todo;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.Size;
+import org.hibernate.annotations.BatchSize;
+
 import java.time.LocalDate;
 
+@Entity
 public class Todo {
 
+    @Id
+    @GeneratedValue
     private int id;
     private String username;
+    @Size(min = 10, message = "Enter at least 10 characters")
     private String description;
     private LocalDate targetDate;
     private boolean done;
