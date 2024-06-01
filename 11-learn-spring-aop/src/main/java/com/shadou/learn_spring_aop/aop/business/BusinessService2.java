@@ -1,5 +1,6 @@
 package com.shadou.learn_spring_aop.aop.business;
 
+import com.shadou.learn_spring_aop.aop.annotations.TrackTime;
 import com.shadou.learn_spring_aop.aop.data.DataService2;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +15,7 @@ public class BusinessService2 {
         this.dataService2 = dataService2;
     }
 
+    @TrackTime
     public int calculateMin() {
         int[] data = dataService2.retrieveData();
 //        throw new RuntimeException("Something Went Wrong!");

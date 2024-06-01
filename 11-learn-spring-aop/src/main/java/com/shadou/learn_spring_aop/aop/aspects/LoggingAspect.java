@@ -14,19 +14,19 @@ public class LoggingAspect {
 
     // Pointcut - When?
     // execution(* PACKAGE.*.*(..))
-    @Before("execution(* com.shadou.learn_spring_aop.aop.*.*.*(..))")
+    @Before("com.shadou.learn_spring_aop.aop.aspects.CommonPointcutConfig.allPackageConfigUsingBean()")
     public void logMethodCallBeforeExecution(JoinPoint joinPoint) {
         logger.info("Before aspect - {} is called with arguments: {}",
-                joinPoint, joinPoint.getArgs()); // What ?
+                joinPoint, joinPoint.getArgs()); // Advice - What ?
     }
 
-    @After("execution(* com.shadou.learn_spring_aop.aop.*.*.*(..))")
+    @After("com.shadou.learn_spring_aop.aop.aspects.CommonPointcutConfig.businessPackageConfig()")
     public void logMethodCallAfterExecution(JoinPoint joinPoint) {
         logger.info("After aspect - {} has executed ", joinPoint);
     }
 
     @AfterThrowing (
-            pointcut = "execution(* com.shadou.learn_spring_aop.aop.*.*.*(..))",
+            pointcut = "com.shadou.learn_spring_aop.aop.aspects.CommonPointcutConfig.businessAndDataPackageConfig()",
             throwing = "exception"
     )
     public void logMethodCallAfterException(JoinPoint joinPoint, Exception exception) {
@@ -34,7 +34,7 @@ public class LoggingAspect {
     }
 
     @AfterReturning(
-            pointcut = "execution(* com.shadou.learn_spring_aop.aop.*.*.*(..))",
+            pointcut = "com.shadou.learn_spring_aop.aop.aspects.CommonPointcutConfig.dataPackageConfig()",
             returning = "result"
     )
     public void logMethodCallAfterSuccessExecution(JoinPoint joinPoint, Object result) {

@@ -13,7 +13,9 @@ public class PerformanceTrackingAspect {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Around("execution(* com.shadou.learn_spring_aop.aop.*.*.*(..))")
+
+//    @Around("execution(* com.shadou.learn_spring_aop.aop.*.*.*(..))")
+    @Around("com.shadou.learn_spring_aop.aop.aspects.CommonPointcutConfig.trackTimeAnnotation()")
     public Object findExecutionTime(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
 
         // Start a timer
