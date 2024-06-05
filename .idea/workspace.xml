@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff2f8e92-c328-4fe2-b513-9d514bffba44" name="Changes" comment="refactor folders" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;SaraHadou&quot;
+    },
+    {
+      &quot;assignee&quot;: &quot;SaraHadou&quot;,
+      &quot;reviewState&quot;: &quot;REQUIRED&quot;
+    },
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;reviewState&quot;: &quot;REQUIRED&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e5201bb7-4191-4d3c-bca2-2bd38c0f8da3" />
+        <option name="url" value="https://github.com/SaraHadou/Java_Spring_Boot_Full_Stack.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2fj29PXEKNL4BJ0y8zesbWRUf2O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/saraelaraby/Desktop/learn-spring-framework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shadou.learnspringframework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02-spring-boot/src/main/resources" />
+      <recent name="$PROJECT_DIR$/02-spring-boot/src/main/java/com/shadou/learnspringframework" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/shadou/learnspringframework/examples/g1" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/shadou/learnspringframework/examples/f1" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/shadou/learnspringframework/examples/e1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02-spring-boot" />
+      <recent name="$PROJECT_DIR$/02-spring-boot/.mvn" />
+      <recent name="$PROJECT_DIR$/01-Spring" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shadou.learnspringframework" />
+      <recent name="com.shadou.learnspringframework.examples.c1" />
+      <recent name="com.shadou.learnspringframework.examples.b1" />
+      <recent name="com.shadou.learnspringframework.examples.a1" />
+      <recent name="com.shadou.learnspringframework.examples.a0" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LearnJpaAndHibernateApplication">
+    <configuration name="GamingAppLauncherApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadou.learnspringframework.game.GamingAppLauncherApplication" />
+      <module name="learn-spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadou.learnspringframework.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnJpaAndHibernateApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadou.springboot.learnjpaandhibernate.LearnJpaAndHibernateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadou.springboot.learnjpaandhibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnSpringFrameworkApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadou.learnspringframework.LearnSpringFrameworkApplication" />
+      <module name="learn-spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadou.learnspringframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealWorldSpringContextLauncherApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadou.learnspringframework.examples.b1.RealWorldSpringContextLauncherApplication" />
+      <module name="learn-spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadou.learnspringframework.examples.b1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlConfigurationContextLauncherApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadou.learnspringframework.examples.g1.XmlConfigurationContextLauncherApplication" />
+      <module name="learn-spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadou.learnspringframework.examples.g1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LearnJpaAndHibernateApplication" />
+        <item itemvalue="Application.LearnSpringFrameworkApplication" />
+        <item itemvalue="Application.XmlConfigurationContextLauncherApplication" />
+        <item itemvalue="Application.GamingAppLauncherApplication" />
+        <item itemvalue="Application.RealWorldSpringContextLauncherApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff2f8e92-c328-4fe2-b513-9d514bffba44" name="Changes" comment="" />
+      <created>1714300015657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714300015657</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Gaming App Using basic of OOP - Interfaces - (No Spring)">
+      <option name="closed" value="true" />
+      <created>1714672088308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714672088308</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Gaming App Using Spring Basics">
+      <option name="closed" value="true" />
+      <created>1714672701426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714672701426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create and manage java objects using Spring Framework">
+      <option name="closed" value="true" />
+      <created>1714761258133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761258134</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create and manage java objects using Spring Framework">
+      <option name="closed" value="true" />
+      <created>1714762218697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714762218697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding @Qualifier &amp; @Primary Annotation">
+      <option name="closed" value="true" />
+      <created>1714762846295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714762846295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="learn dependency injection methods.">
+      <option name="closed" value="true" />
+      <created>1714817957043</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714817957043</updated>
+    </task>
+    <task id="LOCAL-00007" summary="real world spring framework example.">
+      <option name="closed" value="true" />
+      <created>1714849815416</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714849815416</updated>
+    </task>
+    <task id="LOCAL-00008" summary="explore lazy initialization.">
+      <option name="closed" value="true" />
+      <created>1714852019342</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714852019342</updated>
+    </task>
+    <task id="LOCAL-00009" summary="explore bean scopes">
+      <option name="closed" value="true" />
+      <created>1714893917888</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714893917888</updated>
+    </task>
+    <task id="LOCAL-00010" summary="explore PostConstruct &amp; PreDestroy Annotations">
+      <option name="closed" value="true" />
+      <created>1714903130625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714903130625</updated>
+    </task>
+    <task id="LOCAL-00011" summary="explore PostConstruct &amp; PreDestroy Annotations">
+      <option name="closed" value="true" />
+      <created>1714914384153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714914384153</updated>
+    </task>
+    <task id="LOCAL-00012" summary="explore Jakarta EE Annotations (Named &amp; Inject)">
+      <option name="closed" value="true" />
+      <created>1714942525737</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714942525737</updated>
+    </task>
+    <task id="LOCAL-00013" summary="explore XML Configuration">
+      <option name="closed" value="true" />
+      <created>1714994318951</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714994318951</updated>
+    </task>
+    <task id="LOCAL-00014" summary="explore Spring Annotation Stereotype">
+      <option name="closed" value="true" />
+      <created>1714999478037</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714999478037</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create Sringboot Application">
+      <option name="closed" value="true" />
+      <created>1715000721745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715000721745</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create Sringboot Application">
+      <option name="closed" value="true" />
+      <created>1715000743828</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715000743828</updated>
+    </task>
+    <task id="LOCAL-00017" summary="create courses API">
+      <option name="closed" value="true" />
+      <created>1715432119546</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715432119546</updated>
+    </task>
+    <task id="LOCAL-00018" summary="currency configuration API">
+      <option name="closed" value="true" />
+      <created>1715540173104</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715540173104</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Gaming App Using basic of OOP - Interfaces - (No Spring)" />
+    <MESSAGE value="Gaming App Using Spring Basics" />
+    <MESSAGE value="create and manage java objects using Spring Framework" />
+    <MESSAGE value="Adding @Qualifier &amp; @Primary Annotation" />
+    <MESSAGE value="learn dependency injection methods." />
+    <MESSAGE value="real world spring framework example." />
+    <MESSAGE value="explore lazy initialization." />
+    <MESSAGE value="explore bean scopes" />
+    <MESSAGE value="explore PostConstruct &amp; PreDestroy Annotations" />
+    <MESSAGE value="explore Jakarta EE Annotations (Named &amp; Inject)" />
+    <MESSAGE value="explore XML Configuration" />
+    <MESSAGE value="explore Spring Annotation Stereotype" />
+    <MESSAGE value="create Sringboot Application" />
+    <MESSAGE value="create courses API" />
+    <MESSAGE value="currency configuration API" />
+    <option name="LAST_COMMIT_MESSAGE" value="currency configuration API" />
+  </component>
+</project>
