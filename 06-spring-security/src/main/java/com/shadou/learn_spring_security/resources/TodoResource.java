@@ -1,7 +1,11 @@
 package com.shadou.learn_spring_security.resources;
 
+import jakarta.annotation.security.RolesAllowed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PostAuthorize;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,6 +25,10 @@ public class TodoResource {
     }
 
     @GetMapping("/users/{username}/todos")
+    @PreAuthorize("hasRole('USER') and #username == authentication.name")
+//    @PostAuthorize("returnObject.username == 'user1'")
+    @RolesAllowed({"ADMIN", "USER"})
+    @Secured({"ROLE_ADMIN", "ROLE_USER"})
     public List<Todo> retrieveTodosForSpecificUser(@PathVariable String username) {
         return TODO_LIST.stream()
                 .filter(todo -> todo.username().equals(username))
